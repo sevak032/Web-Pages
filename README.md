@@ -1,2 +1,2 @@
 # Web-Pages
-i make a simple page use of HTML &amp; CSS.
+i've created a simple page use of HTML & CSS.
