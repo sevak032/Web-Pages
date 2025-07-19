@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+            width: 100%;
+            height: 80px;
+            background-color: rgb(248, 132, 240);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+        }
+
+        .container:hover{
+            background-color: rgb(85, 109, 109);
+        }
+
+        .item{
+            font-size: 15px;
+            font-family: monospace;
+        }
+
+        .item2{
+            display: flex;
+            gap: 10px;
+            color: rgb(81, 0, 255);
+        }
+
+        .text{
+            border: red double 5px;
+            border-radius: 15pc;
+            width: 80px;
+            height: 15px;
+            text-align: center;
+            padding: 3px;
+        }
+
+        .text:hover{
+            background-color: rgb(52, 49, 49);
+            border: dotted 4px rgb(255, 238, 0);
+            color: rgb(242, 255, 0);
+        }
+
+        button{
+            width: 80px;
+            height: 35px;
+            background-color: chocolate;
+            border: lab(lightness a b)rgb(249, 44, 78) 10px;
+            border: rgb(96, 91, 91) double 5px;
+            border-radius: 15px;
+            font-family:fantasy;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+
+        button:hover{
+            background-color: rgb(60, 127, 186);
+            color: rgb(251, 153, 5);
+            border:double rgb(7, 197, 255) 5px;
+        }
+
+        .item3{
+            margin-right: 50px;
+        }
+
+        input{
+            width: 80px;
+            background-color: rgb(48, 49, 49);
+            border: double rgb(255, 132, 0) 5px;
+            color: white;
+            border-radius: 10px;
+        }
+
+        input:hover{
+            background-color: rgb(205, 102, 214);
+            border: double rgb(255, 255, 255) 5px;
+            color: rgb(3, 0, 0);
+            border-radius: 10px;
+        }
+        hr{
+            background-color: rgb(255, 170, 0);
+            height: 0.5px;
+        }
+
+        .page{
+            width: 1400px;
+            height: 600px;
+            background-color: bisque;
+            margin-top: 100px;
+        }
+
+        @media screen and (max-width : 768px){
+            
+        }
+
+    </style>
+</head>
+
+
+
+
+            <body>
+                <div class="container">
+                    <div class="item item1">
+                        <button>Login</button>
+                    </div>
+
+                    <div class="item item2">
+                        <div class="text">Home</div>
+                        <div class="text">Abouts-Us</div>
+                        <div class="text">Service</div>
+                        <div class="text">Feature</div>
+                        <div class="text">Concat-Me</div>
+                    </div>
+                    <div class="item item3">
+                        <input type="text" placeholder="Search">
+                        <input type="image">
+                    </div>
+                    
+                </div>
+                <hr><hr>
+
+                <div class="page"></div>
+                <div style="background-color: aqua;" class="page"></div>
+
+            </body>
+</html>
